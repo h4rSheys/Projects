@@ -1,0 +1,81 @@
+html{
+    background-color: cadetblue;
+}
+h6{
+    margin-left: 175px;
+    color: rgb(81, 81, 81);
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+div{
+    margin-top: 15px;
+    background-color:  black;
+    width: 600px;
+    height: 750px;
+    margin-left: 450px;
+    border-radius: 2em;
+    border: grey 0.000000px solid;
+    box-shadow: 7px 7px 5px rgb(72, 72, 72);
+}
+label{
+    color: aliceblue;
+    margin-left: 40px;
+    font-size: 2em;
+    padding-top: 60px;
+    margin-top: 40px;
+    
+    font-family: cursive;
+}
+h1{
+    color: antiquewhite;
+    font-size: 60px;
+    margin-left: 175px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    color: cadetblue;
+}
+input{
+    font-family: cursive;
+    color: aquamarine;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 40px;
+    font-size: 2em;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 68, 68);
+    background-color: rgb(75, 75, 75);
+}
+input:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: scale(2px) ease;
+}
+a{
+    text-decoration: none;
+    font-family: cursive;
+}
+a:active{
+    color: azure;
+}
+button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 225px;
+    margin-top: -20px;
+    border-radius: 50px;
+    background-color: rgb(215, 255, 154);
+    color: rgb(69, 103, 18);
+    font-weight: bold;
+    
+    cursor: pointer; 
+    font-size: 2em;
+    border: 2px solid rgb(70, 70, 70);
+}
+button:hover{
+    background-color: rgb(69, 103, 18);
+    color: rgb(215, 255, 154)
+}
