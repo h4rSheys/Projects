@@ -2,18 +2,19 @@ html{
     background-color: cadetblue;
 }
 h6{
-    margin-left: 175px;
+    margin-right: 50px;
     color: rgb(81, 81, 81);
-    display: inline-block;
+    
+    float: right;
     font-size: 1.2em;
     font-family: cursive;
 }
 div{
-    margin-top: 15px;
+    margin-top: 40px;
     background-color:  black;
-    width: 600px;
-    height: 750px;
-    margin-left: 450px;
+    width: 400px;
+    height: 640px;
+    margin-left: 530px;
     border-radius: 2em;
     border: grey 0.000000px solid;
     box-shadow: 7px 7px 5px rgb(72, 72, 72);
@@ -21,16 +22,18 @@ div{
 label{
     color: aliceblue;
     margin-left: 40px;
-    font-size: 2em;
+    font-size: 1.5em;
     padding-top: 60px;
     margin-top: 40px;
     
-    font-family: cursive;
+    font-family: verdana;
 }
 h1{
     color: antiquewhite;
     font-size: 60px;
-    margin-left: 175px;
+    padding-top: 40px;
+    
+    margin-left: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 hr{
@@ -42,9 +45,9 @@ input{
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 500px;
-    height: 40px;
-    font-size: 2em;
+    width: 290px;
+    height: 30px;
+    font-size: 1.5em;
     border-radius: 10px;
     border: 2px solid rgb(68, 68, 68);
     background-color: rgb(75, 75, 75);
@@ -61,18 +64,18 @@ a:active{
     color: azure;
 }
 button{
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 225px;
-    margin-top: -20px;
-    border-radius: 50px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 155px;
+    margin-top: -10px;
+    border-radius: 25px;
     background-color: rgb(215, 255, 154);
     color: rgb(69, 103, 18);
     font-weight: bold;
     
     cursor: pointer; 
-    font-size: 2em;
+    font-size: 1.5em;
     border: 2px solid rgb(70, 70, 70);
 }
 button:hover{
