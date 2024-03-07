@@ -1,5 +1,5 @@
 html{
-    background-color: cadetblue;
+    background-color: rgb(26, 97, 100);
 }
 h6{
     margin-right: 50px;
@@ -27,6 +27,10 @@ label{
     margin-top: 40px;
     
     font-family: verdana;
+}
+h6{
+    font-family: cursive;
+    
 }
 h1{
     color: antiquewhite;

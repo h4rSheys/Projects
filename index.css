@@ -1,12 +1,35 @@
 html{
-    background-color: cadetblue;
+    background-color: rgb(26, 97, 100);
+    font-family: verdana;
+    color: beige;
 }
-div{
+#pa{
     width: 400px;
-    background-color: rgb(232, 231, 231);
-    height: 700px;
+    background-color: rgb(0, 0, 0);
+    height: 640px;
     margin-left: 520px;
+    margin-top: 40px;
     border-radius: 40px;
+    border-radius: 2em;
+    border: grey 0.000000px solid;
+    box-shadow: 7px 7px 5px rgb(72, 72, 72);
+
+
+}
+button{
+    margin-left: 140px;
+    border-radius: 10px;
+    margin-top: -90000px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(0, 255, 17);
+    color: rgb(0, 134, 11);
+    border: 0px solid aquamarine;
+    font-size: 1.5em;
+}
+button:hover{
+    background-color: rgb(0, 134, 11);
+    color: rgb(0, 255, 17)
 }
 #gen:hover{
     color: brown;
@@ -19,10 +42,15 @@ div{
     margin-left: 40px;
     font-size: 1.5em;
 }
-
+h6{
+    font-family: cursive;
+    margin-left: 90px;
+    font-size: 0.75em;
+    margin-top: -10px;
+}
 h1{
     padding-top: 35px;
-    margin-left: 130px;
+    margin-left: 110px;
     font-size: 3em;
 }
 input[type=radio]#fmaw{
@@ -44,16 +72,16 @@ input[type=radio]#gen{
 }
 
 input{
-    margin-left: 40px;
+    margin-left: 30px;
     font-family: cursive;
     color: aquamarine;
 
     margin-top: 10px;
     margin-bottom: 10px;
     width: 290px;
-    height: 19px;
+    height: 23px;
     font-size: 1.5em;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid rgb(68, 68, 68);
     background-color: rgb(75, 75, 75);
 }
