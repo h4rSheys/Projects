@@ -4,6 +4,6 @@ function Kill(){
         open(signin.html)
     }
     else{
-        open("homepg.html")
+        open("homeg.html")
     }
 }
